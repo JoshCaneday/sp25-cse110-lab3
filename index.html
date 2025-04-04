@@ -109,26 +109,36 @@
             <input type="date"><br><br>
     
             <p>Role:</p>
+            <p>Leader</p>
             <input type="radio">
-            <p>Leader</p><br>
-            <input type="radio">
-            <p>Member</p><br><br>
+            <p>Member</p>
+            <input type="radio"><br>
     
-            <label>Tasks Completed:</label><br>
-            <input type="checkbox" id="task1" name="task1">
-            <label for="task1">Frontend</label><br>
-            <input type="checkbox" id="task2" name="task2">
-            <label for="task2">Backend</label><br><br>
+            <p>Project Topic:</p><br>
+            <p>Frontend</p>
+            <input type="checkbox"><br>
+            <p>Backend</p>
+            <input type="checkbox"><br>
+            <p>Other</p>
+            <input type="checkbox"><br><br>
+
     
-            <label for="notes">Notes:</label><br>
-            <textarea id="notes" name="notes" rows="4" cols="40"></textarea><br><br>
+            <p>Notes:</p><br>
+            <textarea></textarea><br><br>
     
-            <label for="priority">Priority:</label>
-            <select id="priority" name="priority">
-              <option value="high">High</option>
-              <option value="medium">Medium</option>
-              <option value="low">Low</option>
+            <p>Priority:</p>
+            <select>
+              <option>High</option>
+              <option>Medium</option>
+              <option>Low</option>
             </select><br><br>
+
+            <p>Type:</p>
+            <datalist>
+              <option>Comment</option>
+              <option>Concern</option>
+              <option>Question</option>
+            </datalist><br><br>
     
             <button type="submit">Submit</button>
           </fieldset>

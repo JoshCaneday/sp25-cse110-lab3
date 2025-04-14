@@ -209,10 +209,6 @@
   }
 
   
-  button[type="submit"]:hover {
-    background-color: #e6762e;
-  }
-  
   /* Media section */
   #Media {
     background-color: hsl(210, 100%, 95%);
@@ -322,7 +318,7 @@
     margin: 20px auto;
     max-width: 960px;
     
-    h2 {
+    & h2 {
       font-weight: bold;
     }
   }
@@ -409,10 +405,3 @@
   section:has(img) {
     border: 2px dashed orange;
   }
-  
-
-
-
-  
-
-    

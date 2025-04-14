@@ -391,7 +391,7 @@
   }
 
   li + li {
-    background-color: #eee;
+    color: black;
   }
 
   div ~ div {

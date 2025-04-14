@@ -1,24 +1,26 @@
-# 🗓️ Standup Notes — YYYY-MM-DD
+# Standup Notes — 2025-04-14
 
-## 👤 Name: [Your Name]
+## Name: Joshua Caneday
 
-### ✅ What I did yesterday
+### Meeting Type: Check-In
+
+### Progress
 - [ ] Task 1
 - [ ] Task 2
 - [ ] Task 3
 
-### 📌 What I'm doing today
+### To-Do
 - [ ] Task A
 - [ ] Task B
 - [ ] Task C
 
-### ⚠️ Blockers / Issues
+### Issues
 - None
 <!-- or -->
 - [ ] Waiting on X from [Person/Team]
 - [ ] Debugging issue with [Feature]
 
-### 💬 Notes / Comments
+### Notes / Comments
 - [Optional thoughts, quick updates, reminders]
 
 ---

@@ -52,10 +52,18 @@
     border: 2px solid white;
     border-radius: 5px;
   }
+
+  a {
+    color: color(display-p3 0.8 0.2 0.2);
+    text-decoration: underline;
+    text-align: left;
+  }
   
   /* Section headings */
   h2, h3 {
-    color: color-mix(in srgb, orange 60%, white 40%)
+    color: color-mix(in srgb, orange 60%, white 40%);
+    text-align: center;
+    text-decoration: underline;
   }
   
   /* Style all sections */

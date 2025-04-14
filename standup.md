@@ -1,8 +1,8 @@
-# Standup Notes — 2025-04-14
+# Standup Notes — YYYY-MM-DD
 
-## Name: Joshua Caneday
+## Name: Insert Name
 
-### Meeting Type: Check-In
+### Meeting Type: Insert Type
 
 ### Progress
 - [ ] Task 1

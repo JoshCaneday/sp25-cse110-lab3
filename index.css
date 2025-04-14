@@ -257,4 +257,21 @@
     background-color: #cc5c1b;
     transform: scale(0.98);
   }
+
+  details:hover {
+    background-color: #f0f0f0;
+  }
+  
+  details:active {
+    border: 1px solid blue;
+  }
+  
+  summary:hover {
+    color: green;
+    cursor: pointer;
+  }
+  
+  summary:active {
+    color: red;
+  }
   

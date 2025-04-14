@@ -3,7 +3,7 @@
     --primary-color: rgb(74, 144, 226);
     --secondary-color: #DFF6FF;
     --accent-color: #FF8C42;
-    --fallback-color: color(display-p3 1,1,1,1);
+    --fallback-color: color(display-p3 1 1 1);
   }
   
   /* Whole page style */

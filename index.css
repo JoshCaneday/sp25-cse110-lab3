@@ -37,6 +37,8 @@
 
     position: sticky;
     top: 0;
+
+    z-index: 1000;
   }
   
   header h1 {
@@ -246,5 +248,32 @@
     border-radius: 4px;
 
     position: relative;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #e6762e;
+    cursor: pointer;
+  }
+
+  button[type="submit"]:active {
+    background-color: #cc5c1b;
+    transform: scale(0.98);
+  }
+
+  details:hover {
+    background-color: #f0f0f0;
+  }
+  
+  details:active {
+    border: 1px solid blue;
+  }
+  
+  summary:hover {
+    color: green;
+    cursor: pointer;
+  }
+  
+  summary:active {
+    color: red;
   }
   

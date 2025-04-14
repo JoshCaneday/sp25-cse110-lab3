@@ -3,7 +3,7 @@
     --primary-color: rgb(74, 144, 226);
     --secondary-color: #DFF6FF;
     --accent-color: #FF8C42;
-    --fallback-color: color(display-p3 0.8 0.8 0.8);
+    --fallback-color: color(display-p3 1,1,1,1);
   }
   
   /* Whole page style */
@@ -120,7 +120,7 @@
   
   /* Footer form styling */
   footer {
-    background-color: var(--fallback-color, #eaeaea);
+    background-color: var(--fallback-color, #fff);
     width: 100%;
 
     padding: 20px;

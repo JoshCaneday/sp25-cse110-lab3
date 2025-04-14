@@ -222,4 +222,24 @@
     padding: 8px;
     border-radius: 6px;
   }
+
+  
+  /* Block element */
+  .display-block {
+    display: block;
+    background-color: #e6ffe6;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #70db70;
+    border-radius: 4px;
+  }
+  
+  /* Inline element */
+  .display-inline {
+    display: inline;
+    background-color: #ffe6e6;
+    padding: 5px;
+    border: 1px solid #ff9999;
+    border-radius: 4px;
+  }
   

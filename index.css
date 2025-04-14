@@ -247,4 +247,14 @@
 
     position: relative;
   }
+
+  button[type="submit"]:hover {
+    background-color: #e6762e;
+    cursor: pointer;
+  }
+
+  button[type="submit"]:active {
+    background-color: #cc5c1b;
+    transform: scale(0.98);
+  }
   

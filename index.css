@@ -34,6 +34,9 @@
     border-color: rgba(51, 102, 153, 0.9);
     border-width: 0.05in;
     border-radius: 0.15cm;
+
+    position: sticky;
+    top: 0;
   }
   
   header h1 {
@@ -241,5 +244,7 @@
     padding: 5px;
     border: 1px solid #ff9999;
     border-radius: 4px;
+
+    position: absolute;
   }
   

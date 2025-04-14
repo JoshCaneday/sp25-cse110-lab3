@@ -1,0 +1,110 @@
+/* Define root variables for reuse and fallback */
+:root {
+    --primary-color: #4A90E2;
+    --secondary-color: #DFF6FF;
+    --accent-color: #FF8C42;
+    --fallback-color: #ccc;
+  }
+  
+  /* Whole page style */
+  body {
+    background-color: var(--secondary-color, #f0f0f0);
+    color: #333;
+  }
+  
+  /* Header style */
+  header {
+    background-color: var(--primary-color, blue);
+    color: white;
+  }
+  
+  header h1 {
+    color: white;
+  }
+  
+  /* Navbar style */
+  nav a {
+    color: white;
+  }
+  
+  /* Section headings */
+  h2, h3 {
+    color: var(--accent-color, darkorange);
+  }
+  
+  /* Style all sections */
+  section {
+    background-color: #ffffff;
+  }
+  
+  /* Style for unordered and ordered lists */
+  ul, ol {
+    color: white;
+  }
+  
+  /* Attendance list styling */
+  ul li {
+    color: white;
+  }
+  
+  /* Details/summary toggles */
+  details {
+    background-color: #f9f9f9;
+    border-left: 4px solid var(--primary-color, blue);
+  }
+  
+  /* Media elements */
+  img, video, audio {
+
+  }
+  
+  /* Footer form styling */
+  footer {
+    background-color: var(--fallback-color, #eaeaea);
+  }
+  
+  form {
+
+  }
+  
+  fieldset {
+    border: 2px solid var(--primary-color);
+    background-color: #fff;
+  }
+  
+  /* Inputs and textareas */
+  input[type="text"],
+  input[type="date"],
+  textarea,
+  select,
+  input[list] {
+    border: 1px solid #ccc;
+  }
+  
+  /* Style checkboxes and radios inline */
+  input[type="checkbox"],
+  input[type="radio"] {
+    
+  }
+  
+  /* Submit button */
+  button[type="submit"] {
+    background-color: var(--accent-color, orange);
+    color: white;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #e6762e;
+  }
+  
+  /* Media section */
+  #Media {
+    background-color: #f0f8ff;
+    border-left: 5px solid var(--primary-color);
+  }
+  
+  /* Responsive image size */
+  img {
+
+  }
+  
